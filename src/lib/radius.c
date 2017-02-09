@@ -40,7 +40,7 @@ RCSID("$Id$")
 /*
  *  The RFC says 4096 octets max, and most packets are less than 256.
  */
-#define MAX_PACKET_LEN 4096
+#define MAX_PACKET_LEN 40000
 
 /*
  *	The maximum number of attributes which we allow in an incoming
